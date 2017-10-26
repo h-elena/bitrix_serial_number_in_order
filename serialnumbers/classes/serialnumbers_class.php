@@ -20,6 +20,12 @@ class Serialnumbers
         return "<br>Module: ".$module_id." (".$arModuleVersion["VERSION"].")<br>Class: Serialnumbers<br>File: ".__FILE__;
     }
 
+    /**
+     * Get all data from base
+     *
+     * @param array $arFilter
+     * @return mixed
+     */
     public function GetList($arFilter = array())
     {
         $err_mess = (self::err_mess())."<br>Function: GetList<br>Line: ";
@@ -36,6 +42,12 @@ class Serialnumbers
         return $res;
     }
 
+    /**
+     * Delete element from base
+     *
+     * @param $ID
+     * @return bool
+     */
     public static function Delete($ID)
     {
         global $DB, $strError;
@@ -60,6 +72,10 @@ class Serialnumbers
         return $site;
     }
 
+    /**
+     * @param $str
+     * @return bool
+     */
     public static function CheckFileName($str)
     {
         $io = CBXVirtualIo::GetInstance();
@@ -68,6 +84,12 @@ class Serialnumbers
         return true;
     }
 
+    /**
+     * Add element in base
+     *
+     * @param $str
+     * @return bool
+     */
     public function Add($str){
         $err_mess = (self::err_mess())."<br>Function: GetList<br>Line: ";
         $res = false;
@@ -93,6 +115,12 @@ class Serialnumbers
         return false;
     }
 
+    /**
+     * Update element in base
+     *
+     * @param $fields
+     * @return bool
+     */
     public function Update($fields){
         $err_mess = (self::err_mess())."<br>Function: GetList<br>Line: ";
         $res = false;
