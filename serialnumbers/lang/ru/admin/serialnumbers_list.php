@@ -1,0 +1,17 @@
+<?
+$MESS["SERIALNUMBERS_ACCESS_DENIED"] = "Доступ запрещен.";
+$MESS ['SERIALNUMBERS_NAME_MODULE'] = "Серийные номера";
+$MESS["SERIALNUMBERS_FILTER_NUMBER"] = "Номер";
+$MESS["SERIALNUMBERS_FILTER_ACTIVE"] = "Активность";
+
+$MESS["SERIALNUMBERS_HEADER_NUMBER"] = "Номер";
+$MESS["SERIALNUMBERS_HEADER_ACTIVE"] = "Активность";
+
+$MESS["SERIALNUMBERS_YES"] = "Да";
+$MESS["SERIALNUMBERS_NO"] = "Нет";
+$MESS["SERIALNUMBERS_DOWNLOAD_TEXT"] = "Загрузить из файла";
+$MESS["SERIALNUMBERS_DELETE_L"] = "Удалить выбранные элементы";
+
+$MESS["MAIN_ADMIN_LIST_SELECTED"] = "Выбрано:";
+$MESS["MAIN_ADMIN_LIST_CHECKED"] = "Отмечено:";
+?>

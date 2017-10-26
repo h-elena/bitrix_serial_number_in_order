@@ -1,0 +1,31 @@
+<?
+$MESS ['SERIALNUMBERS_MODULE_NAME'] = "Серийные номера";
+$MESS ['SERIALNUMBERS_MODULE_DESCRIPTION'] = "Управление серийными номерами.";
+$MESS ['SERIALNUMBERS_INSTALL_TEXT'] = "Установка модуля serialnumbers.";
+$MESS ['SERIALNUMBERS_UNINSTALL_TEXT'] = "Деинсталляция модуля serialnumbers";
+$MESS ['SERIALNUMBERS_INSTALL_TITLE'] = "Установка модуля \"Серийные номера\"";
+$MESS ['SERIALNUMBERS_UNINSTALL_TITLE'] = "Деинсталляция модуля \"Серийные номера\"";
+$MESS ['SERIALNUMBERS_NO'] = "нет";
+$MESS ['SERIALNUMBERS_ATTENTION'] = "Внимание! Модуль будет деинсталлирован.";
+$MESS ['SERIALNUMBERS_YOU_CAN_SAVE_TABLES'] = "Вы можете сохранить данные в таблицах базы данных, если установите флажок &quot;Сохранить таблицы&quot;";
+$MESS ['SERIALNUMBERS_SAVE_TABLES'] = "Сохранить таблицы";
+$MESS ['SERIALNUMBERS_DELETE'] = "Деинсталлировать";
+$MESS ['SERIALNUMBERS_DELETE_COMLETE'] = "Деинсталляция модуля завершена.";
+$MESS ['SERIALNUMBERS_BACK'] = "Вернуться";
+$MESS ['SERIALNUMBERS_ERRORS'] = "Ошибки:";
+$MESS ['SERIALNUMBERS_INSTALL'] = "Установить";
+$MESS ['SERIALNUMBERS_COMPLETE'] = "Установка модуля завершена.";
+$MESS ['SERIALNUMBERS_WRONG_MAIN_VERSION'] = "Для установки модуля вам необходимо обновить ядро до версии #VER#";
+$MESS ['SERIALNUMBERS_DENIED'] = "доступ закрыт";
+$MESS ['SERIALNUMBERS_OPENED'] = "доступ открыт";
+$MESS ['SERIALNUMBERS_FULL'] = "полный доступ";
+$MESS ['SERIALNUMBERS_URL_PUBLIC'] = "Каталог для демонстрационных файлов:";
+$MESS ['SERIALNUMBERS_DEMO_DIR'] = "Работу демонстрационных файлов вы можете посмотреть по нижеследующим ссылкам:";
+$MESS ['SERIALNUMBERS_RESET'] = "Сбросить";
+$MESS ['SERIALNUMBERS_SITE'] = "Сайт";
+$MESS ['SERIALNUMBERS_LINK'] = "Ссылка";
+$MESS ['COPY_PUBLIC_FILES'] = "Скопировать публичные файлы";
+$MESS ['COPY_FOLDER'] = "Папка, в которую будут скопированы файлы (относительно корня сайта):";
+$MESS ['INSTALL_PUBLIC_REW'] = "Переписывать существующие файлы";
+$MESS ['SERIALNUMBERS_SALE_SERIAL'] = "Отсылка серийного номера";
+?>
