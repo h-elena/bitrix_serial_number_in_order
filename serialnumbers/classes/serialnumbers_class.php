@@ -277,7 +277,6 @@ class Serialnumbers
             "SALE_EMAIL" => \Bitrix\Main\Config\Option::get("sale", "order_email", "order@" . $_SERVER["SERVER_NAME"]),
             "SERIALNUMBERS_SALE_SERIAL" => $number['number']
         );
-        AddMessage2Log($fields, __METHOD__);
 
         $eventName = self::EVENT_NAME;
         $send = true;
